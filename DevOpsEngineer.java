@@ -1,5 +1,5 @@
 import java.util.Date;
-class DevOpsEngineer extends Employee {
+class DevOpsEngineer extends employee {
     private double bonus;
 
     public DevOpsEngineer(int employeeId, String name, double salary, double bonus) {
@@ -26,7 +26,7 @@ class DevOpsEngineer extends Employee {
 
 public class main {
     public static void Main(String[] args) {
-        Employee employee = new Employee(1, "John Doe", 50000);
+        employee employee = new employee(1, "John Doe", 50000);
         employee.displayEmployeeDetails();
         System.out.println("\n");
 
